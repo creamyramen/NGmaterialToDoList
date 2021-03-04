@@ -1,4 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output } from '@angular/core';
+import * as EventEmitter from 'events';
+
+// @Output() toggle = new EventEmitter();
 
 @Component({
   selector: 'app-main-body',
